@@ -33,13 +33,13 @@ body{
 	width: 100%;
 	height: auto;
 	z-index: 10;
-	background-color: dimgrey;
+	background-color: gold;
 	position: relative;
 	bottom: 0;
 	float: left;
 	margin-top: 5%;
-	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-top: 2%;
+	padding-bottom: 2%;
 }
 .main_layout{
 	width: 100%;
@@ -115,5 +115,19 @@ body{
 	font-family: Oswald;
 	font-size: 20px;
 	font-weight: bold;
-	color: white;
+	
+}
+.selta_layout{
+	margin-top: 0;
+	width: 100%;
+	height: auto;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color: gold;
+}
+#map{
+	width: 90%;
+	height: 300px;
+	margin-right: 5%;
+	margin-left: 5%;
 }
