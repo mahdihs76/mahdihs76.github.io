@@ -1,0 +1,190 @@
+﻿<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>SELTA</title>
+		<link href="styles/main.css" type="text/css" rel="stylesheet"  /> 
+		<link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Rubik+Mono+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Changa+One" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Tangerine" rel="stylesheet">
+		 <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet"> 
+		 <link rel="icon" type="image/png" href="images/icons/selta_icon.png" >
+		<script>
+function startTime() {
+    var today = new Date();
+    var h = today.getHours();
+    var m = today.getMinutes();
+    var s = today.getSeconds();
+    m = checkTime(m);
+    s = checkTime(s);
+    document.getElementById('time').innerHTML =
+    h + ":" + m + ":" + s;
+    var t = setTimeout(startTime, 500);
+}
+function checkTime(i) {
+    if (i < 10) {i = "0" + i};  // add zero in front of numbers < 10
+    return i;
+}
+</script>
+	</head>
+	<body onLoad="startTime()">
+		<div class="header_layout">
+			<table width="100%">
+				<tr>
+					<td><a href="#home" >Home</a> | <a href="#selta">SELTA</a> | <a href="#aboutus">About us</a> | <a href="#map">Where are we</a></td>
+					<!--<td id="time" ></td>-->
+				</tr>
+			</table>
+
+		</div>
+
+		<div id="home">
+		<img class="main_image" src="images/header/sharif.jpg" />
+		</div>
+						<div class="selta_layout" id="selta">
+			<img class="selta_logo" src="images/icons/selta_logo.png" />
+			<span class="selta_description">SELTA (the abbreviation of "teacher assistant selector") is a web based application which help teachers to find the most appropriate TAs. This application implements by WebCheese group consist of sharif university students and a hero - pooya mosaddegh. We hope that SELTA can doctor teacher`s pains :) </span>
+			<br/>
+		</div>
+		<div class="main_layout" id="aboutus">
+		<div class="team_card">
+			<center><img class="card_image" src="images/leader/pooya_mosaddegh.jpg" /></center>
+			<p class="card_name">Pooya Mosaddegh</p>
+			<p class="card_job">Leader</p>
+			<p class="card_description">This is a great article. I love when companies make creative team pages. When we did your “Meet the Masterminds” section I was a bit reluctant and wanted it to not have a team section and our CMO explained the necessity of it.<br/><br/><br/><br/></p>
+			<div class="card_connections">
+				<a href="https://t.me/pooya_mosaddegh" ><img class="social_net" src="images/icons/telegram.png" title="telegram" /></a>
+				<a href="https://www.instagram.com/pooyamosaddegh/" ><img class="social_net" src="images/icons/instagram.png" title="instagram" /></a>
+				<a href="#" ><img class="social_net" src="images/icons/facebook.png" title="facebook" /></a>
+				<a href="#" ><img class="social_net" src="images/icons/linkedin.png" title="linkedin"/></a>
+			</div>
+		</div>
+		<div class="team_card">
+			<center><img class="card_image" src="images/developers/mahdi_hasanzadeh.jpg" /></center>
+			<p class="card_name">Mahdi Hasanzadeh</p>
+			<p class="card_job">Developer</p>
+			<p class="card_description">This is a great article. I love when companies make creative team pages. When we did your “Meet the Masterminds” section I was a bit reluctant and wanted it to not have a team section and our CMO explained the necessity of it.<br/><br/><br/><br/></p>
+			<div class="card_connections">
+				<a href="https://t.me/mahdihs76" ><img class="social_net" src="images/icons/telegram.png" title="telegram" /></a>
+				<a href="https://www.instagram.com/m.hz97/" ><img class="social_net" src="images/icons/instagram.png" title="instagram" /></a>
+				<a href="#" ><img class="social_net" src="images/icons/facebook.png" title="facebook" /></a>
+				<a href="https://linkedin.com/in/mahdi-hasanzadeh-a41621135" ><img class="social_net" src="images/icons/linkedin.png" title="linkedin"/></a>
+			</div>
+		</div>
+				<div class="team_card">
+			<center><img class="card_image" src="images/developers/seyedparsa_mirtaheri.jpg" /></center>
+			<p class="card_name">S.Parsa Mirtaheri</p>
+			<p class="card_job">Developer</p>
+			<p class="card_description">This is a great article. I love when companies make creative team pages. When we did your “Meet the Masterminds” section I was a bit reluctant and wanted it to not have a team section and our CMO explained the necessity of it.<br/><br/><br/><br/></p>
+			<div class="card_connections">
+				<a href="https://t.me/SeyedParsa" ><img class="social_net" src="images/icons/telegram.png" title="telegram" /></a>
+				<a href="https://www.instagram.com/seyedparsa/" ><img class="social_net" src="images/icons/instagram.png" title="instagram" /></a>
+				<a href="#" ><img class="social_net" src="images/icons/facebook.png" title="facebook" /></a>
+				<a href="#" ><img class="social_net" src="images/icons/linkedin.png" title="linkedin"/></a>
+			</div>
+		</div>
+				<div class="team_card">
+			<center><img class="card_image" src="images/developers/hamid_hashemi.jpg" /></center>
+			<p class="card_name">Hamid Hashemi</p>
+			<p class="card_job">Developer</p>
+			<p class="card_description">This is a great article. I love when companies make creative team pages. When we did your “Meet the Masterminds” section I was a bit reluctant and wanted it to not have a team section and our CMO explained the necessity of it.<br/><br/><br/><br/></p>
+			<div class="card_connections">
+				<a href="https://t.me/HamidH97" ><img class="social_net" src="images/icons/telegram.png" title="telegram" /></a>
+				<a href="https://www.instagram.com/hamidh97/" ><img class="social_net" src="images/icons/instagram.png" title="instagram" /></a>
+				<a href="#" ><img class="social_net" src="images/icons/facebook.png" title="facebook" /></a>
+				<a href="#" ><img class="social_net" src="images/icons/linkedin.png" title="linkedin"/></a>
+			</div>
+		</div>
+	
+		<div class="team_card">
+			<center><img class="card_image" src="images/developers/ali_ahmadi.jpg" /></center>
+			<p class="card_name">Ali Ahmadi</p>
+			<p class="card_job">Developer</p>
+			<p class="card_description">This is a great article. I love when companies make creative team pages. When we did your “Meet the Masterminds” section I was a bit reluctant and wanted it to not have a team section and our CMO explained the necessity of it.<br/><br/><br/><br/></p>
+			<div class="card_connections">
+				<a href="https://t.me/Tigerous215" ><img class="social_net" src="images/icons/telegram.png" title="telegram" /></a>
+				<a href="#" ><img class="social_net" src="images/icons/instagram.png" title="instagram" /></a>
+				<a href="#" ><img class="social_net" src="images/icons/facebook.png" title="facebook" /></a>
+				<a href="#" ><img class="social_net" src="images/icons/linkedin.png" title="linkedin"/></a>
+			</div>
+		</div>
+		<div class="team_card">
+			<center><img class="card_image" src="images/developers/faezeh_labbaf.jpg" /></center>
+			<p class="card_name">Faezeh Labbaf</p>
+			<p class="card_job">Developer</p>
+			<p class="card_description">This is a great article. I love when companies make creative team pages. When we did your “Meet the Masterminds” section I was a bit reluctant and wanted it to not have a team section and our CMO explained the necessity of it.<br/><br/><br/><br/></p>
+			<div class="card_connections">
+				<a href="https://t.me/faezeh_lbf" ><img class="social_net" src="images/icons/telegram.png" title="telegram" /></a>
+				<a href="https://www.instagram.com/faezeh_lbf/" ><img class="social_net" src="images/icons/instagram.png" title="instagram" /></a>
+				<a href="#" ><img class="social_net" src="images/icons/facebook.png" title="facebook" /></a>
+				<a href="#" ><img class="social_net" src="images/icons/linkedin.png" title="linkedin"/></a>
+			</div>
+		</div>
+				<div class="team_card">
+			<center><img class="card_image" src="images/developers/hossein_ahmadzadeh.jpg" /></center>
+			<p class="card_name">Hossein Ahmadzadeh</p>
+			<p class="card_job">Developer</p>
+			<p class="card_description">This is a great article. I love when companies make creative team pages. When we did your “Meet the Masterminds” section I was a bit reluctant and wanted it to not have a team section and our CMO explained the necessity of it.<br/><br/><br/><br/></p>
+			<div class="card_connections">
+				<a href="https://t.me/hosaham" ><img class="social_net" src="images/icons/telegram.png" title="telegram" /></a>
+				<a href="https://www.instagram.com/hosein.ahmadzade/" ><img class="social_net" src="images/icons/instagram.png" title="instagram" /></a>
+				<a href="#" ><img class="social_net" src="images/icons/facebook.png" title="facebook" /></a>
+				<a href="#" ><img class="social_net" src="images/icons/linkedin.png" title="linkedin"/></a>
+			</div>
+		</div>
+				<div class="team_card">
+			<center><img class="card_image" src="images/developers/reza_zeiny.jpg" /></center>
+			<p class="card_name">Reza Zeiny</p>
+			<p class="card_job">Developer</p>
+			<p class="card_description">This is a great article. I love when companies make creative team pages. When we did your “Meet the Masterminds” section I was a bit reluctant and wanted it to not have a team section and our CMO explained the necessity of it.<br/><br/><br/><br/></p>
+			<div class="card_connections">
+				<a href="https://t.me/Rezazeiny" ><img class="social_net" src="images/icons/telegram.png" title="telegram" /></a>
+				<a href="#" ><img class="social_net" src="images/icons/instagram.png" title="instagram" /></a>
+				<a href="#" ><img class="social_net" src="images/icons/facebook.png" title="facebook" /></a>
+				<a href="#" ><img class="social_net" src="images/icons/linkedin.png" title="linkedin"/></a>
+			</div>
+		</div>
+						
+							<div class="team_card">
+			<center><img class="card_image" src="images/developers/mahdi_ghorbani.jpg" /></center>
+			<p class="card_name">Mahdi Ghorbani</p>
+			<p class="card_job">Developer</p>
+			<p class="card_description">This is a great article. I love when companies make creative team pages. When we did your “Meet the Masterminds” section I was a bit reluctant and wanted it to not have a team section and our CMO explained the necessity of it.<br/><br/><br/><br/></p>
+			<div class="card_connections">
+				<a href="https://t.me/Mahdi_gh0" ><img class="social_net" src="images/icons/telegram.png" title="telegram" /></a>
+				<a href="https://www.instagram.com/mahdi.gh0/" ><img class="social_net" src="images/icons/instagram.png" title="instagram" /></a>
+				<a href="#" ><img class="social_net" src="images/icons/facebook.png" title="facebook" /></a>
+				<a href="#" ><img class="social_net" src="images/icons/linkedin.png" title="linkedin"/></a>
+			</div>
+		</div>
+		</div>
+
+		<div class="footer_layout" >
+<div id="map"></div>
+			<p class="selta_description" style="text-align: center;">  Made in IRAN by WebCheese. All rights reserved. </p>
+
+
+
+<script>
+      function initMap() {
+		// Computer Department of Sharif Uni :)
+        var myLatLng = {lat: 35.702506, lng: 51.351158};
+
+        var map = new google.maps.Map(document.getElementById('map'), {
+          zoom: 16,
+          center: myLatLng
+        });
+
+        var marker = new google.maps.Marker({
+          position: myLatLng,
+          map: map,
+          title: 'We are WebCheese'
+        });
+      }
+</script>
+ <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyaqCASlE84jQ_ywF2DOAdj6mzk94SAvk&callback=initMap">
+    </script>
+		</div>
+	</body>
+</html>

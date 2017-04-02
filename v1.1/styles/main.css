@@ -1,0 +1,133 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+a{
+	text-decoration: none;
+	color: white;
+}
+a:hover{
+	color: gold;
+}
+body{
+	background-image: url(../images/bg.png);
+}
+.header_layout{
+	width: 100%;
+	height: auto;
+	position: fixed;
+	z-index:10;
+	background-color: dimgray;
+	font-family:Oswald; 
+	font-weight: bold;
+	color: white;
+	font-size: 30px;
+	padding-left: 5%;
+}
+
+.main_image{
+	width: 100%;
+
+}
+.footer_layout{
+	width: 100%;
+	height: auto;
+	z-index: 10;
+	background-color: gold;
+	position: relative;
+	bottom: 0;
+	float: left;
+	margin-top: 5%;
+	padding-top: 2%;
+	padding-bottom: 2%;
+}
+.main_layout{
+	width: 100%;
+	height: auto;
+}
+.team_card{
+	width: 17%;
+	height: auto;
+	margin-top: 10%;
+	margin-left: 6.4%;
+	border-radius: 5px;
+	background-color: whitesmoke;
+	position:relative;
+	float: left;
+	box-shadow: 0px 10px 30px 10px #888888;
+
+}
+.card_name{
+	font-family: Oswald;
+	font-size: 20px;
+	font-weight: bolder;
+	text-align: center;
+	max-width: 100%;
+	min-width: 100%;
+}
+.card_job{
+	font-family: Tangerine;
+	text-align: center;
+	font-size: 30px;
+}
+.card_image{
+	margin-top: -70px;
+	border-radius: 50%;
+	width: 60%;
+	height: auto;
+
+}
+
+.card_connections{
+	width: 100%;
+	height: auto;
+	border-radius: 0px 0px 5px 5px;
+	background-color: grey;
+	position: absolute;
+    bottom: 0;
+	margin-top: 10px;
+}
+.card_connections:hover{
+	background-color: gold;
+}
+.card_description{
+	font-family: Economica;
+	text-align: center;
+	margin-left: 10%;
+	margin-right: 10%;
+	margin-top: 5%;
+	
+}
+.social_net{
+	height: auto;
+	width: 15%;
+	margin-top: 5px;
+	margin-left: 7%;
+	opacity: 1;
+}
+.social_net:hover{
+	opacity: 0.8;
+}
+.selta_logo{
+	float: left;
+}
+.selta_description{
+	font-family: Oswald;
+	font-size: 20px;
+	font-weight: bold;
+	
+}
+.selta_layout{
+	margin-top: 0;
+	width: 100%;
+	height: auto;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	background-color: gold;
+}
+#map{
+	width: 90%;
+	height: 300px;
+	margin-right: 5%;
+	margin-left: 5%;
+}
