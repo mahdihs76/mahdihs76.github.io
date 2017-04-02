@@ -32,23 +32,15 @@ function checkTime(i) {
 		<div class="header_layout">
 			<table width="100%">
 				<tr>
-					<td><a href="#home" >Home</a> | <a href="#selta">SELTA</a> | <a href="#aboutus">About us</a> | <a href="#map">Where are we</a></td>
+					<td><a href="#" >Home</a> | <a href="#">Professors</a> | <a href="#">Teacher Assistants</a> | <a href="index.html" style="color: gold;">About us </a> | <a href="#">Contact us</a></td>
 					<!--<td id="time" ></td>-->
 				</tr>
 			</table>
 
 		</div>
-
-		<div id="home">
+		<div class="main_layout">
 		<img class="main_image" src="images/header/sharif.jpg" />
-		</div>
-						<div class="selta_layout" id="selta">
-			<img class="selta_logo" src="images/icons/selta_logo.png" />
-			<span class="selta_description">SELTA (the abbreviation of "teacher assistant selector") is a web based application which help teachers to find the most appropriate TAs. This application implements by WebCheese group consist of sharif university students and a hero - pooya mosaddegh. We hope that SELTA can doctor teacher`s pains :) </span>
-			<br/>
-		</div>
-		<div class="main_layout" id="aboutus">
-		<div class="team_card">
+<div class="team_card">
 			<center><img class="card_image" src="images/leader/pooya_mosaddegh.jpg" /></center>
 			<p class="card_name">Pooya Mosaddegh</p>
 			<p class="card_job">Leader</p>
@@ -159,32 +151,11 @@ function checkTime(i) {
 			</div>
 		</div>
 		</div>
-
-		<div class="footer_layout" >
-<div id="map"></div>
+		<div class="footer_layout">
+			<img class="selta_logo" src="images/icons/selta_logo.png" />
+			<span class="selta_description">SELTA (the abbreviation of "teacher assistant selector") is a web based application which help teachers to find the most appropriate TAs. This application implements by WebCheese group consist of sharif university students and a hero - pooya mosaddegh. We hope that SELTA can doctor teacher`s pains :) </span>
+			<br/>
 			<p class="selta_description" style="text-align: center;">  Made in IRAN by WebCheese. All rights reserved. </p>
-
-
-
-<script>
-      function initMap() {
-		// Computer Department of Sharif Uni :)
-        var myLatLng = {lat: 35.702506, lng: 51.351158};
-
-        var map = new google.maps.Map(document.getElementById('map'), {
-          zoom: 16,
-          center: myLatLng
-        });
-
-        var marker = new google.maps.Marker({
-          position: myLatLng,
-          map: map,
-          title: 'We are WebCheese'
-        });
-      }
-</script>
- <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAyaqCASlE84jQ_ywF2DOAdj6mzk94SAvk&callback=initMap">
-    </script>
 		</div>
 	</body>
 </html>
